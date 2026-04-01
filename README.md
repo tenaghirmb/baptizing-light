@@ -1,6 +1,7 @@
 # 🔦 BaptizingLight
 > **Advanced Android Flashlight HAL & State Sync Engine**
 
+[![Android CI](https://github.com/tenaghirmb/baptizing-light/actions/workflows/android.yml/badge.svg)](https://github.com/tenaghirmb/baptizing-light/actions/workflows/android.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org)
 [![BuyMeACoffee](https://raw.githubusercontent.com/pachadotdev/buymeacoffee-badges/main/bmc-donate-yellow.svg)](https://www.buymeacoffee.com/tenaghirmb)
 
@@ -43,12 +44,9 @@ A high-performance, industrial-grade Android Flashlight application built with S
 - **Build System:** Gradle (Kotlin DSL)
 
 ## 👓 Screenshots
-![main_light.png](screenshots/main_light.png)
-
-![main_night.png](screenshots/main_night.png)
-
-![SOS_night.png](screenshots/SOS_night.png)
-
-![parameter_tuning_night.png](screenshots/parameter_tuning_night.png)
-
-![screen_flash.png](screenshots/screen_flash.png)
+|                     Light Theme                      |            Dark Theme            |
+|:----------------------------------------------------:|:--------------------------------:|
+|  <img src="screenshots/main_light.png" width="200">  | <img src="screenshots/main_night.png" width="200"> |
+|                                                      | <img src="screenshots/SOS_night.png" width="200"> |
+|                                                      | <img src="screenshots/parameter_tuning_night.png" width="200"> |
+| <img src="screenshots/screen_flash.png" width="200"> | <img src="screenshots/screen_flash.png" width="200"> |
