@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Baptizing Light</string>
+    <string name="tile_name">Baptize</string>
+    <string name="settings">Settings</string>
+    <string name="settingsPrompt">Parameter Tuning</string>
+    <string name="status_manual">Basic</string>
+    <string name="status_sos">SOS</string>
+    <string name="status_breathing">Breath</string>
+    <string name="status_screen">Screen</string>
+    <string name="brightness_label">Dimmer</string>
+    <string name="breathing_label">Breathing Period</string>
+    <string name="sos_lock_label">SOS Force Maximum Brightness</string>
+    <string name="sos_unit">Gap</string>
+    <string name="screen_flash_overlay_exit_message">Back Button Exit</string>
+    <string name="notification_title">Baptizing Light Standing By</string>
+    <string name="notification_text">SOS/Breathing mode is running</string>
+    <string name="notification_stop">stop</string>
+    <string name="notification_permission_toast">Insufficient Permissions: Background SOS mode requires notification permissions to remain active.</string>
+    <string name="notification_channel_desc">SOS/Breathing mode</string>
+    <string name="notification_channel">Stable background running</string>
+    <string name="tile_close">Done</string>
+</resources>

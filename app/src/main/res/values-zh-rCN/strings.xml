@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">圣光</string>
+    <string name="tile_name">净化</string>
+    <string name="settings">高级设置</string>
+    <string name="settingsPrompt">参数微调</string>
+    <string name="status_manual">基础</string>
+    <string name="status_sos">SOS</string>
+    <string name="status_breathing">呼吸</string>
+    <string name="status_screen">屏幕补光</string>
+    <string name="brightness_label">调光器</string>
+    <string name="breathing_label">呼吸节奏</string>
+    <string name="sos_lock_label">SOS强制最高亮度</string>
+    <string name="sos_unit">间隔</string>
+    <string name="screen_flash_overlay_exit_message">返回退出</string>
+    <string name="notification_title">圣光守护中</string>
+    <string name="notification_text">SOS/呼吸模式运行中</string>
+    <string name="notification_stop">停止</string>
+    <string name="notification_permission_toast">权限不足：后台 SOS 模式需要通知权限才能保持运行。</string>
+    <string name="notification_channel_desc">SOS/呼吸模式</string>
+    <string name="notification_channel">后台稳定运行</string>
+    <string name="tile_close">确定</string>
+</resources>
