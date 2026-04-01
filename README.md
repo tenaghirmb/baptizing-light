@@ -44,9 +44,11 @@ A high-performance, industrial-grade Android Flashlight application built with S
 - **Build System:** Gradle (Kotlin DSL)
 
 ## 👓 Screenshots
-|                     Light Theme                      |            Dark Theme            |
-|:----------------------------------------------------:|:--------------------------------:|
-|  <img src="screenshots/main_light.png" width="200">  | <img src="screenshots/main_night.png" width="200"> |
-|                                                      | <img src="screenshots/SOS_night.png" width="200"> |
-|                                                      | <img src="screenshots/parameter_tuning_night.png" width="200"> |
-| <img src="screenshots/screen_flash.png" width="200"> | <img src="screenshots/screen_flash.png" width="200"> |
+|                          Light Theme                           |                           Dark Theme                           |
+|:--------------------------------------------------------------:|:--------------------------------------------------------------:|
+|       <img src="screenshots/main_light.png" width="300">       |       <img src="screenshots/main_night.png" width="300">       |
+|      <img src="screenshots/basic_light.png" width="300">       |      <img src="screenshots/basic_night.png" width="300">       |
+|       <img src="screenshots/SOS_light.png" width="300">        |       <img src="screenshots/SOS_night.png" width="300">        |
+|      <img src="screenshots/breath_light.png" width="300">      |      <img src="screenshots/breath_night.png" width="300">      |
+| <img src="screenshots/parameter_tuning_light.png" width="300"> | <img src="screenshots/parameter_tuning_night.png" width="300"> |
+|   <img src="screenshots/screen_flash_white.png" width="300">   |   <img src="screenshots/screen_flash_cyan.png" width="300">    |
