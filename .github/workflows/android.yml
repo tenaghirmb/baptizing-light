@@ -23,6 +23,11 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew assembleRelease
 
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+        with:
+          packages: 'build-tools;34.0.0' # Example: Install version 34.0.0 explicitly
+
       # 自动上传到 Release 页面
 #      - name: Upload APK
 #        uses: softprops/action-gh-release@v1
@@ -34,6 +39,8 @@ jobs:
       - name: Sign APK
         uses: r0adkll/sign-android-release@v1
         id: sign_app
+        env:
+          BUILD_TOOLS_VERSION: "34.0.0"
         with:
           releaseDirectory: app/build/outputs/apk/release
           signingKeyBase64: ${{ secrets.KEYSTORE_BASE64 }}
