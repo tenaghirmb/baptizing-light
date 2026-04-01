@@ -56,5 +56,5 @@ jobs:
       - name: Upload Signed APK
         uses: actions/upload-artifact@v4
         with:
-          name: Release-Build-${{ github.ref_name }}
+          name: BaptizingLight-${{ github.ref_name }}
           path: app/build/outputs/apk/release/BaptizingLight-${{ github.ref_name }}.apk
