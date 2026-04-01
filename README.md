@@ -52,3 +52,14 @@ A high-performance, industrial-grade Android Flashlight application built with S
 |      <img src="screenshots/breath_light.png" width="300">      |      <img src="screenshots/breath_night.png" width="300">      |
 | <img src="screenshots/parameter_tuning_light.png" width="300"> | <img src="screenshots/parameter_tuning_night.png" width="300"> |
 |   <img src="screenshots/screen_flash_white.png" width="300">   |   <img src="screenshots/screen_flash_cyan.png" width="300">    |
+
+## Contributing
+
+Contributions are welcome! Please submit an issue or pull request to contribute to this project.
+
+## Licensing
+
+This project is licensed under the terms of the MIT License. See the [LICENSE](LICENSE) file for the full license text and copyright notice.
+
+## Buy me a coffee
+[![BuyMeACoffee](https://iili.io/JoQ1MeS.md.png)](https://www.buymeacoffee.com/tenaghirmb)
