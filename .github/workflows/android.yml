@@ -41,8 +41,13 @@ jobs:
           keyStorePassword: ${{ secrets.KEYSTORE_PASSWORD }}
           keyPassword: ${{ secrets.KEY_PASSWORD }}
 
+      - name: Rename APK with Tag
+        run: |
+          TAG_NAME=${{ github.ref_name }}
+          mv ${{ steps.sign_app.outputs.signedReleaseFile }} app/build/outputs/apk/release/BaptizingLight-${TAG_NAME}.apk
+
       - name: Upload Signed APK
         uses: actions/upload-artifact@v4
         with:
-          name: Signed-APK
-          path: ${{ steps.sign_app.outputs.signedReleaseFile }}
+          name: Release-Build-${{ github.ref_name }}
+          path: app/build/outputs/apk/release/BaptizingLight-${{ github.ref_name }}.apk
