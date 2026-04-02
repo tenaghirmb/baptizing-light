@@ -28,14 +28,6 @@ jobs:
         with:
           packages: 'build-tools;34.0.0' # Example: Install version 34.0.0 explicitly
 
-      # 自动上传到 Release 页面
-#      - name: Upload APK
-#        uses: softprops/action-gh-release@v1
-#        with:
-#          files: app/build/outputs/apk/release/*.apk
-#        env:
-#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Sign APK
         uses: r0adkll/sign-android-release@v1
         id: sign_app
@@ -58,3 +50,12 @@ jobs:
         with:
           name: BaptizingLight-${{ github.ref_name }}
           path: app/build/outputs/apk/release/BaptizingLight-${{ github.ref_name }}.apk
+
+      # 自动上传到 Release 页面
+      - name: Upload APK
+        uses: softprops/action-gh-release@v1
+        with:
+          files: app/build/outputs/apk/release/BaptizingLight-${{ github.ref_name }}.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
