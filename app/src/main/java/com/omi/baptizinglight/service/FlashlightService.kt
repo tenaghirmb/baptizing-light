@@ -45,9 +45,11 @@ class FlashlightService private constructor(context: Context) {
     val currentMode = _currentMode.asStateFlow()
 
     init {
-        if (cameraId != null) {
-            // 1. 如果有缓存，优先保证响应速度
-            android.util.Log.d("SRE", "Using cached CameraID: $cameraId")
+        if (cameraId == null) {
+            cameraId = fetchCameraIdFromSystem()
+            cameraId?.let { id ->
+                prefs.edit { putString("cached_id", id) }
+            }
         }
 
         // 2. 无论有没有缓存，都在后台偷偷验证/更新一次
