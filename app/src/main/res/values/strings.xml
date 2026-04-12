@@ -16,7 +16,7 @@
     <string name="notification_text">SOS/Breathing mode is running</string>
     <string name="notification_stop">stop</string>
     <string name="notification_permission_toast">Insufficient Permissions: Background SOS mode requires notification permissions to remain active.</string>
-    <string name="notification_channel_desc">SOS/Breathing mode</string>
+    <string name="notification_channel_desc">Background mode</string>
     <string name="notification_channel">Stable background running</string>
     <string name="tile_close">Done</string>
 </resources>

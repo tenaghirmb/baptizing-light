@@ -17,7 +17,7 @@
     <string name="notification_text">SOS/呼吸模式运行中</string>
     <string name="notification_stop">停止</string>
     <string name="notification_permission_toast">权限不足：后台 SOS 模式需要通知权限才能保持运行。</string>
-    <string name="notification_channel_desc">SOS/呼吸模式</string>
+    <string name="notification_channel_desc">后台运行模式</string>
     <string name="notification_channel">后台稳定运行</string>
     <string name="tile_close">确定</string>
 </resources>

@@ -93,7 +93,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
         val intent = Intent(context, FlashlightForegroundService::class.java)
 
         when (mode) {
-            FlashlightMode.SOS, FlashlightMode.BREATHING -> {
+            FlashlightMode.SOS, FlashlightMode.BREATHING, FlashlightMode.MANUAL -> {
                 // 高频闪烁模式，必须开启前台服务防止 CPU 打盹
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                     context.startForegroundService(intent)
@@ -101,7 +101,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
                     context.startService(intent)
                 }
             }
-            FlashlightMode.OFF, FlashlightMode.MANUAL -> {
+            FlashlightMode.OFF -> {
                 // 常亮或关闭模式，不需要高频计秒，可以停止前台服务节省电力
                 // (注：如果你希望常亮也不被系统杀掉，可以将 MANUAL 也加入启动列表)
                 context.stopService(intent)
