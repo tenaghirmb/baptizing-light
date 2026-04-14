@@ -13,7 +13,7 @@
     <string name="sos_unit">Gap</string>
     <string name="screen_flash_overlay_exit_message">Back Button Exit</string>
     <string name="notification_title">Baptizing Light Standing By</string>
-    <string name="notification_text">SOS/Breathing mode is running</string>
+    <string name="notification_text">Baptizing Light is running</string>
     <string name="notification_stop">stop</string>
     <string name="notification_permission_toast">Insufficient Permissions: Background SOS mode requires notification permissions to remain active.</string>
     <string name="notification_channel_desc">Background mode</string>
